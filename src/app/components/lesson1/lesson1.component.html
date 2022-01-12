@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <label>{{ serverName }}</label>
+    </div>
+    <div class="col-md-3">
+      <input
+        type="text"
+        class="form-control"
+        (input)="OnUpdateServerName($event)"
+      />
+    </div>
+    <div class="col-md-3">
+      <input type="text" class="form-control" [(ngModel)]="serverName" />
+    </div>
+    <div class="col-md-3">
+      <button
+        class="btn btn-primary"
+        [disabled]="allowNewServer"
+        (click)="OnCreateServer()"
+      >
+        Add Server
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <p [ngStyle]="{ backgroundColor: GetColor() }">
+        {{ "Server" }} with Id {{ serverId }} is {{ GetServerStatus() }}
+      </p>
+    </div>
+    <div class="col-md-6" *ngIf="serverName; else noServer">
+      {{ serverCreation }}
+    </div>
+    <ng-template class="col-md-6" #noServer>No Server Added</ng-template>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+      <label> Exercise In Data Binding</label>
+    </div>
+    <div class="col-md-3">
+      <input type="text" class="form-control" [(ngModel)]="username" />
+    </div>
+    <div class="col-md-2">
+      <label>{{ username }}</label>
+    </div>
+    <div class="col-md-2">
+      <button
+        [disabled]="username === ''"
+        class="btn btn-primary"
+        (click)="username = ''"
+      >
+        Click Me
+      </button>
+    </div>
+  </div>
+  <div class="col-md-12" *ngFor="let name of repeatList; let i = index">
+    Name is {{ name }} and index is {{ i }}
+  </div>
+</div>
