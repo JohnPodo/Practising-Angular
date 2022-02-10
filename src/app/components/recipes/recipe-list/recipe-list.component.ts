@@ -11,17 +11,17 @@ export class RecipeListComponent implements OnInit {
     new Recipe(
       'A Test Recipe',
       'Just a Test',
-      'https://www.simplyrecipes.com/thmb/JWjdE8YwikAae0KZuyy6ZJW7Utw=/3000x2001/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1c-c2b1885d27d4481c9cfe6f6286a64342.jpg'
+      'https://media.istockphoto.com/photos/chickpea-hummus-bowl-closeup-with-pita-flatbread-dipping-isolated-on-picture-id1323443868?k=20&m=1323443868&s=612x612&w=0&h=fiW-vsqnLS7tAjhXSNZ_GIHT9A0unUnrajZ6eiBzaJ0='
     ),
     new Recipe(
       'A Test Recipe',
       'Just a Test',
-      'https://www.simplyrecipes.com/thmb/JWjdE8YwikAae0KZuyy6ZJW7Utw=/3000x2001/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1c-c2b1885d27d4481c9cfe6f6286a64342.jpg'
+      'https://media.istockphoto.com/photos/chickpea-hummus-bowl-closeup-with-pita-flatbread-dipping-isolated-on-picture-id1323443868?k=20&m=1323443868&s=612x612&w=0&h=fiW-vsqnLS7tAjhXSNZ_GIHT9A0unUnrajZ6eiBzaJ0='
     ),
     new Recipe(
       'A Test Recipe',
       'Just a Test',
-      'https://www.simplyrecipes.com/thmb/JWjdE8YwikAae0KZuyy6ZJW7Utw=/3000x2001/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1c-c2b1885d27d4481c9cfe6f6286a64342.jpg'
+      'https://media.istockphoto.com/photos/chickpea-hummus-bowl-closeup-with-pita-flatbread-dipping-isolated-on-picture-id1323443868?k=20&m=1323443868&s=612x612&w=0&h=fiW-vsqnLS7tAjhXSNZ_GIHT9A0unUnrajZ6eiBzaJ0='
     ),
   ];
 

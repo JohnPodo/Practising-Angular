@@ -12,9 +12,12 @@ import { RecipeDetailComponent } from './components/recipes/recipe-detail/recipe
 import { RecipeItemComponent } from './components/recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingListComponent } from './components/shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/shopping-edit.component';
+import { DataBindingComponent } from './components/data-binding/data-binding.component';
+import { CockpitComponent } from './components/data-binding/cockpit/cockpit.component';
+import { ServerElComponent } from './components/data-binding/server-el/server-el.component';
 
 @NgModule({
-  declarations: [AppComponent, Lesson1Component, HeaderComponent, RecipesComponent, RecipeListComponent, RecipeDetailComponent, RecipeItemComponent, ShoppingListComponent, ShoppingEditComponent],
+  declarations: [AppComponent, Lesson1Component, HeaderComponent, RecipesComponent, RecipeListComponent, RecipeDetailComponent, RecipeItemComponent, ShoppingListComponent, ShoppingEditComponent, DataBindingComponent, CockpitComponent, ServerElComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
